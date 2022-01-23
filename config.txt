@@ -1,13 +1,3 @@
-# Gametools Autoseeding
-
-#### Part of our cloud server manager https://manager.gametools.network/
-
-
-Battlefield One Autoseeding app design to improve starting of community servers. 
-Automaticly join server to quickly populate it. 
-
-### Example of the config.txt file:
-```py
 # it will autogenerate one of these files when you run the script and it doesn't exist already.
 # But without filling in your group_id it won't work!
 
@@ -34,4 +24,3 @@ message_start_time_utc = '12:00'
 message_stop_time_utc = '23:00'
 # how many minutes between messages
 message_timeout_mins = 8
-```
