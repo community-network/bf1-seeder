@@ -5,7 +5,7 @@
 
 Battlefield One Autoseeding app design to improve starting of community servers. 
 Automaticly join server to quickly populate it. 
-This script is tested with Origin client, we can't guarantee proper functionality in the EA Desktop app: https://www.origin.com/nld/en-us/store/download
+This script is tested with the Origin client, we can't guarantee proper functionality in the EA Desktop app: https://www.origin.com/nld/en-us/store/download
 
 ### Example of the config.txt file:
 ```py
