@@ -5,6 +5,7 @@
 
 Battlefield One Autoseeding app design to improve starting of community servers. 
 Automaticly join server to quickly populate it. 
+This script is tested with Origin client, we can't guarantee proper functionality in the EA Desktop app: https://www.origin.com/nld/en-us/store/download
 
 ### Example of the config.txt file:
 ```py
@@ -19,7 +20,9 @@ game_location = 'C:\Program Files (x86)\Origin Games\Battlefield 1\bf1.exe'
 hostname = 'seeder-1'
 # Allow the script to shutdown your pc when asked from the panel
 allow_shutdown = false
-# automated messages in chat when not seeding (further settings below)
+# When you disable this option, the game will use less resources but renders nothing
+usable_client = true
+# allow automated messages in chat (further settings below)
 send_messages = false
 # if disabled, anti-afk won't work when in fullscreen (so you dont have to close the script before playing)
 fullscreen_anti_afk = true
