@@ -18,16 +18,16 @@ group_id = ''
 game_location = 'C:\Program Files (x86)\Origin Games\Battlefield 1\bf1.exe'
 # what your pc will be called within the group 
 hostname = 'seeder-1'
-# Allow the script to shutdown your pc when asked from the panel
+# Allow the script to shutdown your pc when asked from the panel (administrator rights needed)
 allow_shutdown = false
-# When you disable this option, the game will use less resources but renders nothing
+# When you disable this option, the game will use less resources but renders nothing (doesn't change your ingame settings, only affects the script)
 usable_client = true
 # allow automated messages in chat (further settings below)
 send_messages = false
-# if disabled, anti-afk won't work when in fullscreen (so you dont have to close the script before playing)
+# if disabled, anti-afk won't work when in fullscreen (some people play with the script still running, this stops the script from minimizing the game when fullscreen is detected)
 fullscreen_anti_afk = true
 
-# what message has to be send to the server with automated messages
+# what message has to be send to the server with automated messages. if you want multiple messages, seperate them with ";"
 message = 'Join our discord, we are recruiting: discord.gg/...'
 # in which server
 message_server_name = ''
