@@ -9,6 +9,6 @@ This script is tested with the Origin client, we can't guarantee proper function
 
 You have to have .net (4.7.2) installed: https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472 and with this new version, the config is build into the app itself:
 
-download: https://github.com/community-network/bf1-seeder/blob/main/seeder-app-C-sharp.exe?raw=true
-
 ![image](https://user-images.githubusercontent.com/22680656/159352545-752ff06d-b375-4773-b367-753ed730ac8f.png)
+
+download: https://github.com/community-network/bf1-seeder/blob/main/seeder-app-C-sharp.exe?raw=true
