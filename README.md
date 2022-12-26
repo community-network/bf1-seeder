@@ -7,6 +7,9 @@ Battlefield One Autoseeding app design to improve starting of community servers.
 Automaticly join server to quickly populate it. 
 It supports both ea desktop and origin (if you somehow still manage to still origin...)
 
+Download:
+https://github.com/community-network/bf1-seeder/releases/latest
+
 ### Example of the config.txt file:
 ```py
 # it will autogenerate one of these files when you run the script and it doesn't exist already.
