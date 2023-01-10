@@ -3,8 +3,9 @@
 #### Part of our cloud server manager https://manager.gametools.network/
 
 
-Battlefield One Autoseeding app design to improve starting of community servers. 
-Automaticly join server to quickly populate it. 
+Battlefield 1 and 4 Autoseeding app is made to improve starting of community servers.
+It automaticly joins the requested server selected in the panel via the game client.
+in order for it to work, you will need multiple pc's/people that run the script which you can control with a global command.
 It supports both ea desktop and origin (if you somehow still manage to still origin...)
 
 ### Example of the config.txt file:
@@ -15,6 +16,7 @@ It supports both ea desktop and origin (if you somehow still manage to still ori
 # The unique identifier of your group: "https://manager.gametools.network/group/{group_id}"
 group_id = ''
 # where the shortcut of your game goes to to launch the game. If your didnt change when setting up the game, the defaults will be fine.
+# bf4 example location: 'C:\Program Files\Origin Games\Battlefield 4\BFLauncher_x86.exe'
 game_location = 'C:\Program Files (x86)\Origin Games\Battlefield 1\bf1.exe'
 # what your pc will be called within the group 
 hostname = 'seeder-1'
@@ -39,4 +41,6 @@ message_start_time_utc = '12:00'
 message_stop_time_utc = '23:00'
 # how many minutes between messages
 message_timeout_mins = 8
+# Which game you want to use the script for (Bf1 or Bf4) (dont forget the Capital B in the game name)
+game = 'Bf1'
 ```
