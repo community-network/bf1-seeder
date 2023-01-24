@@ -18,6 +18,8 @@ group_id = ''
 # where the shortcut of your game goes to to launch the game. If your didnt change when setting up the game, the defaults will be fine.
 # bf4 example location: 'C:\Program Files\Origin Games\Battlefield 4\BFLauncher_x86.exe'
 game_location = 'C:\Program Files (x86)\Origin Games\Battlefield 1\bf1.exe'
+# Where steam is installed. If your didnt change when setting up steam, the defaults will be fine.
+steam_location = 'C:\Program Files (x86)\Steam\steam.exe'
 # what your pc will be called within the group 
 hostname = 'seeder-1'
 # Allow the script to shutdown your pc when asked from the panel (administrator rights needed)
@@ -28,8 +30,6 @@ usable_client = true
 send_messages = false
 # if disabled, anti-afk won't work when in fullscreen (some people play with the script still running, this stops the script from minimizing the game when fullscreen is detected)
 fullscreen_anti_afk = true
-# use ea desktop
-use_ea_desktop = true
 
 # what message has to be send to the server with automated messages. if you want multiple messages, seperate them with ";"
 message = 'Join our discord, we are recruiting: discord.gg/...'
@@ -43,4 +43,6 @@ message_stop_time_utc = '23:00'
 message_timeout_mins = 8
 # Which game you want to use the script for (Bf1 or Bf4) (dont forget the Capital B in the game name)
 game = 'Bf1'
+# Which launcher it needs to use to start the game (EADesktop, Origin or Steam) (dont forget the Capital in the launcher name)
+game = 'EADesktop'
 ```
