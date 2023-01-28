@@ -2,13 +2,13 @@
 
 #### Part of our cloud server manager https://manager.gametools.network/
 
-
 Battlefield 1 and 4 Autoseeding app is made to improve starting of community servers.
 It automaticly joins the requested server selected in the panel via the game client.
 in order for it to work, you will need multiple pc's/people that run the script which you can control with a global command.
 It supports both ea desktop and origin (if you somehow still manage to still origin...)
 
 ### Example of the config.txt file:
+
 ```py
 # it will autogenerate one of these files when you run the script and it doesn't exist already.
 # But without filling in your group_id it won't work!
@@ -18,9 +18,9 @@ group_id = ''
 # where the shortcut of your game goes to to launch the game. If your didnt change when setting up the game, the defaults will be fine.
 # bf4 example location: 'C:\Program Files\Origin Games\Battlefield 4\BFLauncher_x86.exe'
 game_location = 'C:\Program Files (x86)\Origin Games\Battlefield 1\bf1.exe'
-# Where steam is installed. If your didnt change when setting up steam, the defaults will be fine.
-steam_location = 'C:\Program Files (x86)\Steam\steam.exe'
-# what your pc will be called within the group 
+# Where ea desktop is installed, linking to Link2EA.exe. If your didnt change when setting up ea desktop, the defaults will be fine.
+link2ea_location = 'C:\Program Files\Electronic Arts\EA Desktop\EA Desktop\Link2EA.exe'
+# what your pc will be called within the group
 hostname = 'seeder-1'
 # Allow the script to shutdown your pc when asked from the panel (administrator rights needed)
 allow_shutdown = false
