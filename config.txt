@@ -32,4 +32,10 @@ message_timeout_mins = 8
 # Which game you want to use the script for (Bf1 or Bf4) (dont forget the Capital B in the game name)
 game = 'Bf1'
 # Which launcher it needs to use to start the game (EADesktop, Origin or Steam) (dont forget the Capital in the launcher name)
-game = 'EADesktop'
+launcher = 'EADesktop'
+# Which backend it has to use to request seeding info
+endpoint = "https://manager-api.gametools.network"
+# time between anti-afk actions, to keep the bot within the server
+anti_afk_timeout_secs = 120
+# time between backend checks, for new commands to follow
+backend_check_timeout_secs = 10
