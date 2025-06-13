@@ -1,5 +1,10 @@
 # Gametools Autoseeding
 
+> [!CAUTION]
+> EA's anticheat started banning people for using any tools within the game, we dont know what action specificly causes a ban.
+> 
+> (16 jun. 25)
+
 #### Part of our cloud server manager https://manager.gametools.network/
 
 Battlefield 1 and 4 Autoseeding app is made to improve starting of community servers.
