@@ -3,7 +3,7 @@
 > [!CAUTION]
 > EA's anticheat started banning people for using any tools within the game, we dont know what action specificly causes a ban.
 > 
-> (16 jun. 25)
+> (13 jun. 25)
 
 #### Part of our cloud server manager https://manager.gametools.network/
 
